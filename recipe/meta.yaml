@@ -1,5 +1,5 @@
 {% set name = "numba_celltree" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2bfc722e0e039e73ac04c3cd7151309c12f57f1d7d9b68fbc206aeb0d0ce665b
+  sha256: 75cd1605edc5618ffaa45bf6b3fff5fd596e48c246501b95c9650a14848b002a
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
+    - hatchling
     - pip
-    - setuptools_scm
   run:
-    - python >=3.7
+    - python >=3.9
     - numba >=0.50
     - numpy
 
