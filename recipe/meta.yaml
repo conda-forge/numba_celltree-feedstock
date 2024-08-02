@@ -1,5 +1,5 @@
 {% set name = "numba_celltree" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 75cd1605edc5618ffaa45bf6b3fff5fd596e48c246501b95c9650a14848b002a
+  sha256: 69baa6f2f8b64ab8c985c58b72c4296d7a9f2614617e0eb4a732c37465e5285e
 
 build:
   noarch: python
