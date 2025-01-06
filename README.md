@@ -155,4 +155,5 @@ Feedstock Maintainers
 =====================
 
 * [@Huite](https://github.com/Huite/)
+* [@deltares-service-account](https://github.com/deltares-service-account/)
 
